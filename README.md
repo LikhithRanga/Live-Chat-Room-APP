@@ -1,17 +1,14 @@
-# Live-Chat-Room-APP
+# Live Chat Room
 
-This is a real-time chat application built with Flask and Socket.IO, allowing users to create or join chat rooms and communicate with each other.
+This is a real-time chat application built using Flask and Socket.IO. Users can create or join chat rooms and send messages to other users in the room.
 
-Features
--Create a new chat room with a unique code.
--Join an existing chat room using the room code.
--Real-time messaging with all members in the chat room.
--User-friendly interface with message timestamps.
--Automatically scroll to the latest message.
--Persist user data during the session.
+## Features
 
-Prerequisites
-Make sure you have the following installed:
--Python 3.x
--Flask
--Flask-SocketIO
+- Create and join chat rooms with unique codes.
+- Real-time messaging using WebSockets.
+- User-friendly interface.
+- Display list of messages in the chat room.
+- Automatically scrolls to the latest message.
+- Prevents unauthorized access to chat rooms.
+- Users can enter chat rooms with a name.
+- Basic input validation for security.
